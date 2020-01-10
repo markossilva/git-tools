@@ -4,12 +4,23 @@
   "description": "Git Tools Project",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "lint": "eslint **/*.js"
   },
   "repository": "git@github.com:markossilva/git-tools.git",
   "author": "Markos da Silva <markosrsilva@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^7.1.7"
+    "electron": "^7.1.7",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "global": "^4.4.0"
   }
 }
