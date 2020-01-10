@@ -1,21 +1,14 @@
 {
-  "name": "git-tools",
+  "name": "gittools",
   "version": "1.0.0",
   "description": "Git Tools Project",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "git@github.com:markossilva/git-tools.git",
+  "author": "Markos da Silva <markosrsilva@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^7.1.7"
   }
